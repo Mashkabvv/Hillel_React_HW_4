@@ -1,0 +1,43 @@
+.form_wrap {
+    position: absolute;
+    z-index: 55;
+    top: 200px;
+    left: 34%;
+    /*right: 50%;*/
+    width: 30%;
+    padding: 30px;
+    background: #F9FABE;
+    border-radius: 5px;
+}
+
+.input_wrap {
+    margin-bottom: 30px;
+}
+
+.input {
+    display: inline-block;
+    width: 95%;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #59568d;
+}
+
+.btn_wrap {
+    text-align: right;
+}
+
+.form_btn {
+    border: none;
+    outline: none;
+    background: #dc4055;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form_btn:first-child {
+    margin-right: 20px;
+}

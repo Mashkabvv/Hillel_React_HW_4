@@ -1,0 +1,33 @@
+.item_wrap {
+    display: flex;
+    justify-content: space-between;
+    background: #F9FABE;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.item_wrap_done {
+    background: #e3d177;
+}
+
+.item_title {
+    font-size: 20px;
+    color: #2a4422;
+}
+
+.item_btn {
+    border: none;
+    outline: none;
+    background: #dc4055;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.item_btn:first-child {
+    background: #648f64;
+    margin-right: 20px;
+}
